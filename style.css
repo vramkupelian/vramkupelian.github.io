@@ -1,0 +1,42 @@
+.barlow{
+    font-size:24px;
+    font-family:"Barlow Condensed";
+}
+
+
+/* I am designating this font with the name boring.
+ It has been already put into the directory for which I am 
+ referencing. */
+@font-face {
+    font-family: "boring";
+    src: url(../../../Lato/Lato-Black.ttf);
+}
+
+@font-face{
+    font-family: "economica";
+    src: url(../../../Economica/Economica-Regular.ttf);
+}
+
+.lato{
+    font-family: "boring";
+}
+
+.last-font{
+    font-family:"economica";
+}
+
+
+a:hover{
+    color: #4aaaa5;
+}
+
+
+/*button presses*/
+a:active{
+    color:red;
+}
+
+/* highlights*/
+a:focus{
+    background-color:yellow;
+}
