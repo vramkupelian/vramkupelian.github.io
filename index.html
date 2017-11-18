@@ -1,56 +1,131 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
 
 <head>
-<title>It's About Time!</title>
+    <meta charset ="UTF-8">
+    <title>About Vram</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
 
-
-<!--linking a font that's hosted online. not downloaded. Before style sheet because it will read first-->
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-
-  <style> 
-  
-
-
-  </style>
+    <style>
+    body{
+        background-image: url(../Basic-Portfolio/assets/images/regal.jpg);
+    }
+    </style>
 
 </head>
 
-
 <body>
+<!-- Container Div -->
+<div class="container" style="max-width:960px;">
+
+        <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-default" style="max-width:960px;">
+            
+                  <!-- Place Fluid Container in Navbar -->
+                  <div class="container-fluid">
+            
+                    <!-- Designate a navbar heading -->
+                    <div class="navbar-header">
+            
+                      <!-- Collapsible button -->
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                       data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            
+                          <!-- navbar button elements-->
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span> <!-- first line -->
+                          <span class="icon-bar"></span> <!-- second line -->
+                          <span class="icon-bar"></span> <!-- third line -->
+            
+                        </button>
+
+                      <!-- Top Bar -->
+                      <a class="navbar-brand" href="#" style="background-color: #4aaaa5; color:#ffffff;">Vram Kupelian</a>
+                    </div>
+            
+                    <!-- The links of our navbar -->
+                    <div id="navbar" class="navbar-collapse collapse navbar-right">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="./index.html">About</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+            
+                        <!-- a Dropdown menu 
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>
+                      </ul>    -->
+            
+                      <!-- More links 
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+                        <li><a href="../navbar-static-top/">Static top</a></li>
+                        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                      </ul>
+                    </div>    -->
+
+                    <!--/.nav-collapse -->
+                  </div>
+                  <!--/.container-fluid -->
+                </nav>
 
 
-<h1>Now that you're here...</h1>
+
+
+            <!-- Jumbotron element 
+            <div class="jumbotron">  -->
+        
+              <!-- centered text 
+              <h1 class="text-center"><strong>Awesome Header</strong></h1>
+              <h2 class="text-center">Smaller Awesome Header</h2>
+              <h3 class="text-center">Even Smaller Header</h3>       -->
+        
+              <!-- button with predefined style rules 
+              <p class="text-center">
+                <a class="btn btn-primary btn-lg" href="#" role="button">
+                  <span class="glyphicon glyphicon-envelope"></span> Learn more</a>
+              </p>
+            </div> -->
+        
+            <!-- a Bootstrap row with columns -->
+            <div class="row" style="margin:auto;">
+        
+              <!-- At large+ screens takes up half width (6/12) -->
+              <div class="col-lg-8" style="border: 1px solid #cccccc; max-width:650px; margin:auto; overflow:auto; background-color:#ffffff;">
+        
+                <!-- centered image with thumbnail rules -->
+                <img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/vram.jpg" alt="vramphoto" width="25%" style="float:left;margin:15px;">
+                <p style="margin: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, molestiae modi accusantium animi magnam veniam, impedit asperiores sint consequuntur debitis fugit quibusdam dolor, iusto sed porro ab minus voluptatibus amet.</p>
+              </div>
+        
+              <!-- At large+ screens takes up half width (6/12) -->
+              <div class="col-lg-3" style="border: 1px solid #cccccc; left:40px; max-width:270px; overflow:auto;background-color:#ffffff;">
+                  <h2 style="color:#4aaaa5;"> </h2>
+                <a href="https://github.com/vramkupelian"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/GitHub-Logo.png" alt="GitHub" width="25%" style="float:left; margin:10px; max-width:25%; left:25px;"></a>
+                <a href="https://stackoverflow.com/users/8582203/vram-kupelian"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/stack-overflow-logo.png" alt="Stack Overflow" width="25%" style="float:left;margin-top:10px; max-width:25%;"></a>
+                <a href="https://www.linkedin.com/in/vram-kupelian-324a0856"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/in-logo.jpg" alt="LinkedIn" width="25%" style="float:left; margin:10px; max-width:25%;"></a>
+              </div>
+            </div>
+          </div>
+        
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
-
-<p class="barlow">I am trying to add a new font on this particular "paragraph."
-     This is Barlow Condensed.</p>
-
-
-<p class="lato">I'm going to put Lato Black font on this particular paragraph.</p>
-
-<p class="last-font">
-This should be Economica.Whoop dee do.
-</p>
-<input type="text">
-
-<br>
-<br>
-<a href="yahoo.com">Yahoo!: Google before Google</a>
-<br>
-<a href="cnn.com">"Fake News"</a>
-<br>
-<a href="whitehouse.gov">The Overlord</a>
-<br>
-<a href="ted.com">TED.com... just because</a>
-
-<br>
-<br>
-
-
-
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
 </body>
-
 </html>
