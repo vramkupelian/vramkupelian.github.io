@@ -29,6 +29,8 @@ body{
 }
 
 .giant{
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
     width:960px;
     margin:auto;
     padding-top:30px;
@@ -78,10 +80,11 @@ body{
 }
 
 .about-me{
+    grid-column: 1/2;
     border:1px solid #dddddd; 
     width:600px;
     flex:1 0 auto;
-    margin:auto;
+    /* margin:auto; */
     float:left;
     text-align: top;
     padding-left: 25px;
@@ -98,49 +101,54 @@ body{
 }
 
 .main-header {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
     background-color:#ffffff;
     width:960px;
     margin:auto;
 }
 
 .name{
+    grid-column: 1/2;
     float:left; 
     border:2px solid #4aaaa5; 
     background-color:#4aaaa5; 
     padding-left:30px;
 }
 
-.links{
-    float:right;
-    
-}
+/* .links{
+    grid-column: 2/3;
+    float:right  !important;
+} */
 
 .connection-box{
     width:270px;
-    float:right;
+    /* float:right; */
     background-color:#ffffff;
     color:#cccccc; 
     border:1px solid #cccccc; 
     text-align:center;
     padding-bottom:15px;
+    grid-column: 2/3;
     
 }
 
-h1{
-    background-color:#4aaaa5; 
-    color:#ffffff; 
-    width:260px;
-    height:100%;
+h2{
+    background-color:#4aaaa5 !important; 
+    color:#ffffff !important; 
+    width:260px !important;
+    height:100% !important;
 }
 
-h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+    color: #4aaaa5 !important;
+    padding-top: 10px;
 }
 
 p, a {
-    font-family:Arial, Helvetica, sans-serif;
-    color:#777777;
+    font-family:Arial, Helvetica, sans-serif !important;
+    color:#777777  !important;
 }
 
 li{
@@ -158,9 +166,11 @@ li{
 }
 
 nav{
-    position:relative;
+    grid-column: 2/3;
+    /* position:relative; */
     top: 30px;
     right: 15px;
+    align-content: center;
 }
 
 a:hover{
@@ -189,8 +199,8 @@ a:hover{
 
     .about-me, .container, .form {
         width:50%;
-        margin:auto;
-        float:left;
+        /* margin:auto; */
+        /* float:left; */
     }
 
    
@@ -255,7 +265,7 @@ a:hover{
             left:30px;
         }
     
-        .links{
+        /* .links{
             background-color: #ffffff;
             padding-top: 15px;
             padding-bottom:15px;
@@ -267,7 +277,7 @@ a:hover{
             vertical-align: middle;
             position:relative;
             left:40px;
-        }
+        } */
 
         .main-header{
             background-color:none;
