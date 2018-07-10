@@ -43,8 +43,8 @@ body{
     width:250px; 
     height:186px; 
     border-style:solid; 
-    margin-left:25px;
-    margin-top:50px; 
+    /* margin-left:25px; */
+    margin:10px; 
     background-size: 100% 100%;
     border-color:#dddddd;
     color: #ffffff;
@@ -60,8 +60,8 @@ body{
     width:250px; 
     height:186px; 
     border-style:solid; 
-    margin-top:50px;
-    margin-right:25px;
+    margin:10px;
+    /* margin-right:25px; */
     background-size: 100% 100%;
     border-color:#dddddd;
     color: #ffffff;
@@ -93,6 +93,9 @@ body{
 }
 
 .container{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
     border:1px solid #dddddd;
     background-color:#ffffff;
     overflow:auto;
