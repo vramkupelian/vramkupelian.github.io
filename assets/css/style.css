@@ -30,6 +30,7 @@ body{
 
 .giant{
     display: grid;
+    position: relative;
     grid-template-columns: 2fr, 1fr;
     width:960px;
     margin:auto;
@@ -116,20 +117,23 @@ body{
     padding-left:30px;
 }
 
-/* .links{
+.nav-links{
     grid-column: 2/3;
-    float:right  !important;
-} */
+    /* float:right  !important; */
+}
 
 .connection-box{
+    grid-column: 2/3;
     width:270px;
-    /* float:right; */
+    position: absolute;
+    right:0;
+    top: 30px;
     background-color:#ffffff;
     color:#cccccc; 
     border:1px solid #cccccc; 
     text-align:center;
     padding-bottom:15px;
-    grid-column: 2/3;
+    
     
 }
 
@@ -166,11 +170,9 @@ li{
 }
 
 nav{
-    grid-column: 2/3;
-    /* position:relative; */
-    top: 30px;
-    right: 15px;
-    align-content: center;
+    position: relative;
+    left: 25%;
+    top:  25%;
 }
 
 a:hover{
@@ -265,7 +267,8 @@ a:hover{
             left:30px;
         }
     
-        /* .links{
+        .nav-links{
+            
             background-color: #ffffff;
             padding-top: 15px;
             padding-bottom:15px;
@@ -276,8 +279,8 @@ a:hover{
             display: inline;
             vertical-align: middle;
             position:relative;
-            left:40px;
-        } */
+            left:40px; 
+        }
 
         .main-header{
             background-color:none;
@@ -291,7 +294,7 @@ a:hover{
         }
  
          nav{
-            background-color: #ffffff;
+            /* background-color: #ffffff;
             padding-top: 15px;
             padding-bottom:15px;
             width:100%;
@@ -301,7 +304,10 @@ a:hover{
             height:10%;
             position:relative;
             top: 10px;
-            margin-left: auto;
+            margin-left: auto; */
+            position: relative;
+            left: 25%;
+            top:  25%;
         } 
    
         .giant{
