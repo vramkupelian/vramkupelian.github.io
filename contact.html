@@ -14,16 +14,21 @@
     <title>Contact Vram</title>
 
     <style>
-    body{
-        background-image:url(assets/images/regal.jpg);
-        }
-        
-    p{
-        color: #777777;
-    }    
-
-
+        body{
+            background-image:url(assets/images/regal.jpg);
+            }
+            
+        p{
+            color: #777777;
+        }    
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     
 </head>
 
@@ -31,20 +36,21 @@
 <body>
 
         <!--This is for my name which is MAIN HEADER-->
-    <div class= "main-header">
+        <div class= "main-header">
+        
+                <div class="name"><h2>Vram Kupelian</h2></div>
        
-            <div class="name"><h1>Vram Kupelian</h1></div>
-
-             <!--put the links for navigation here-->
-                <div class="links">
-                    <nav>  
+    
+                 <!--put the links for navigation here-->
+               
+                <div class = 'nav-links'>
+                    <nav>
                         <a href="index.html" style="padding-right:10px;">About me</a>
                         <a href="portfolio.html" style="border-left:1px solid #cccccc; border-right:1px solid #cccccc; padding-left:10px; padding-right:10px;">Portfolio</a>
                         <a href="contact.html" style="padding-right:10px; padding-left:10px;">Contact</a>
                     </nav>
                 </div>
- 
-    </div>
+        </div>
 
 
 
@@ -54,25 +60,22 @@
         
     
     <div class="form">
-        <h2>Contact Me</h2>
+        <h3>Contact Me</h3>
         <hr>
         <!-- form starts here
         <form action="SEND INFORMATION HERE ">
         -->
         <form>
-          <p>Name</p>
-           
+          <p style='margin:5px 0 0;'>Name</p>
            <input style="width:100%;" type="text"/>
     
-           <p>Email</p> 
-           
-           <input style="width:100%;"type="text"/>
+           <p style='margin:5px 0 0;'>Email</p>  
+           <input style="width:100%;" type="text"/>
           
-           <p>Message</p> 
-            
+           <p style='margin:5px 0 0;'>Message</p> 
             <input style ="height:150px;width:100%;"type="text"/>
             
-            <input style= "background-color:#4aaaa5;color:#ffffff;"type="submit"/>
+            <input style= "background-color:#4aaaa5;color:#ffffff; margin: 10px 0;" type="submit"/>
 
         </form>
 
@@ -80,14 +83,19 @@
 
     <!-- the box with the connections-->
         <div class="connection-box">
-            <aside>
-                <h2> Connect with Me
-                </h2>
-                <hr style="width:80%;">
-                <a href="https://github.com/vramkupelian"><img src="assets/images/GitHub-Logo.png"style= "width:25%;height:auto;" alt ="GitHub page"></a>
-                <a href="https://stackoverflow.com/users/8582203/vram-kupelian"><img src="assets/images/stack-overflow-logo.png"style ="width:25%; height:auto;" alt="stack overflow page"></a>
-                <a href="https://www.linkedin.com/in/vram-kupelian-324a0856"><img src="assets/images/in-logo.jpg" style="width:25%;height:auto;" alt="LinkedIn page"></a>
-            </aside>
+                <aside>
+                    <h3> Connect with Me</h3>
+                    <hr style="width:80%;">
+                        <a href="https://github.com/vramkupelian">
+                            <img src="assets/images/GitHub-Logo.png"style= "width:25%;height:auto;" alt ="GitHub page"></a>
+                        
+                        <a href="https://stackoverflow.com/users/8582203/vram-kupelian">
+                            <img src="assets/images/stack-overflow-logo.png"style ="width:25%; height:auto;" alt="stack overflow page"></a>
+                        
+                        <a href="https://www.linkedin.com/in/vram-kupelian-324a0856">
+                            <img src="assets/images/in-logo.jpg" style="width:25%;height:auto;" alt="LinkedIn page"></a>
+                </aside>
+                
         </div>
 
 </div><!--giant div ends here-->
