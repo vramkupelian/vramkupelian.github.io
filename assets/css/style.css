@@ -13,10 +13,6 @@ img:hover{
     padding:18px;
 }
 
-.photo-vram:hover{
-  
-    outline-offset: -10px;
-}
 
 html,body{
     height:100%;
@@ -90,6 +86,7 @@ body{
     text-align: top;
     padding-left: 25px;
     padding-right:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .container{
@@ -107,6 +104,7 @@ body{
 .main-header {
     display: grid;
     grid-template-columns: 1fr,1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color:#ffffff;
     width:960px;
     margin:auto;
@@ -136,6 +134,7 @@ body{
     border:1px solid #cccccc; 
     text-align:center;
     padding-bottom:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     
 }
@@ -250,6 +249,7 @@ a:hover{
         
         width:100%;
         margin-top: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     }
 }
 
